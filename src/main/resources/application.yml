@@ -13,6 +13,7 @@ oauth2:
   success-url: /index
   authz-callback-class: com.example.myoltuoauth2startersimple.ShiroAuthzCallback
   error-redirect-uri: /error
+  logout-redirect-uri: /asLogout
 
 shiro:
   realm-class: com.citic.UserRealm
